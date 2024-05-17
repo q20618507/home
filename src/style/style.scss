@@ -47,7 +47,7 @@ p {
 @font-face {
   font-family: "UnidreamLED";
   font-display: swap;
-  src: url("/font/UnidreamLED.ttf") format("truetype");
+  src: url("https://s1.hdslb.com/bfs/static/jinkela/long/font/regular.css") format("truetype");
 }
 
 // 基础样式
@@ -143,12 +143,12 @@ p {
 }
 
 // Transition 动画
-.fade-enter-active,
+.fade-enter-active，
 .fade-leave-active {
   transition: opacity 0.3s ease-in-out;
 }
 
-.fade-enter-from,
+.fade-enter-from，
 .fade-leave-to {
   opacity: 0;
 }
